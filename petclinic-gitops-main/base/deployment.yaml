@@ -15,7 +15,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: quay.io/service-binding/spring-petclinic:latest
+      - image: example-registry-quay-quay.apps.test02.ocp4.com/admin/petclinic
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
